@@ -1,0 +1,84 @@
+body {
+    font-family: "Roboto", sans-serif;
+    height: 100vh;
+    display: flex;
+    /* flex: 1; */
+    flex-direction: column;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    gap: 20px;
+    font-size: ;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+    color: #f9faf8;
+}
+
+.header > div {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.content-box-one {
+    background-color: #1f2937;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.content-box-one > :nth-child(1) {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.content-box-one > :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.content-box-two {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box-three {
+    background-color: #e5e7eb;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.content-box-four {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding: 30px;
+    justify-content: center;
+}
