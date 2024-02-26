@@ -65,6 +65,15 @@ ul {
     flex: 1;
     justify-content: center;
     align-items: center;
+    padding: ;
+}
+
+.content-box-three p {
+    width: 1000px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: 300;
 }
 
 .content-box-four {
