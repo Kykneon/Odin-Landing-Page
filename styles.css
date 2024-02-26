@@ -69,7 +69,7 @@ ul {
 }
 
 .content-box-three p {
-    width: 1000px;
+    width: 700px;
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
@@ -82,6 +82,40 @@ ul {
     flex: 1;
     justify-content: center;
     align-items: center;
+}
+
+.content-box-four div {
+    background-color: #3882f6;
+    /* flex: 1; */
+    display: flex;
+    padding: 50px 100px;
+    width: 700px;
+    border-radius: 5px;
+}
+
+.content-box-four div div {
+    flex-direction: column;
+    display: flex;
+    padding: 0;
+}
+
+.content-box-four div div * {
+    margin: 0px;
+    color: #f9faf8;
+
+} 
+
+.content-box-four button {
+    background-color: #3882f6;
+    border: solid #f9faf8;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600; 
+    /* height: 40px; */
+    width: 150px;  
+    align-self: center;
+    padding: 5px;
 }
 
 .footer {
