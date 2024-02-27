@@ -17,7 +17,9 @@ ul {
 
 img {
     height: 120px;
-    object-fit: fill;
+    width: 120px; 
+    object-fit: cover;
+    border-radius: 6px;
 }
 
 .header {
@@ -125,7 +127,7 @@ img {
     width: 120px;
     border: solid 4px #3882f6;
     border-radius: 10px;
-    display: flex;
+    /* display: flex; */
 }
 
 .content-box-three {
