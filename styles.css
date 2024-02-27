@@ -22,6 +22,12 @@ img {
     border-radius: 6px;
 }
 
+.content-box-one img {
+    height: 198px;
+    width: 478px; 
+    margin-left: 50px;
+}
+
 .header {
     background-color: #1f2937;
     display: flex;
