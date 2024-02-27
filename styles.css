@@ -2,7 +2,6 @@ body {
     font-family: "Roboto", sans-serif;
     height: 100vh;
     display: flex;
-    /* flex: 1; */
     flex-direction: column;
     margin: 0;
 }
@@ -14,6 +13,11 @@ ul {
     gap: 20px;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+img {
+    height: 120px;
+    object-fit: fill;
 }
 
 .header {
@@ -34,7 +38,7 @@ ul {
 .content-box-one {
     background-color: #1f2937;
     display: flex;
-    flex: 1;
+    flex: 1.4;
     justify-content: center;
     align-items: center;
     padding: 0px 100px;
@@ -82,21 +86,59 @@ ul {
 .content-box-two {
     background-color: white;
     display: flex;
-    flex: 1;
-    justify-content: center;
+    flex: 1.3;
+    /* justify-content: center; */
     align-items: center;
+    flex-direction: column;
+    padding: 0px 250px;
+}
+
+.content-box-two h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+
+.content-box-two p {
+    font-size: 16px;
+    text-align: center;
+    margin-top: auto;
+    width: 141px;
+}
+
+.content-box-two div {
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+}
+
+.content-box-two div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 0px;
+}
+
+.content-box-two div div div {
+    height: 120px;
+    width: 120px;
+    border: solid 4px #3882f6;
+    border-radius: 10px;
+    display: flex;
 }
 
 .content-box-three {
     background-color: #e5e7eb;
     display: flex;
-    flex: 1;
+    flex: 1.2;
     justify-content: center;
     align-items: center;
+    padding: 0px 250px;
 }
 
 .content-box-three p {
-    width: 700px;
+    /* width: 700px; */
     font-size: 36px;
     font-style: italic;
     color: #1f2937;
